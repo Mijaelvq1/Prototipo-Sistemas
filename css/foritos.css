@@ -1,3 +1,12 @@
+.tooltiptext {
+    visibility: hidden;
+}
+
+ .tooltiptext:hover {
+    visibility: visible;
+    opacity: 1;
+}
+/**/
 .juice{
     position: fixed;
     top: 0px;

@@ -57,10 +57,11 @@
     color: #ffffff;
     letter-spacing: 2px;
     font-weight: 600;
-    
 }
 .copy{
-    color: #302a21;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .juice nav ul li a:hover{
@@ -75,7 +76,7 @@
 
 .header{
     height: 100vh;
-    background-image: linear-gradient(to top, #2836d470 0%, #72d3e47a 100%), url("../img/Espacio_login2.jpg");
+    background-image: linear-gradient(to top, #2836d480 0%, #72d3e486 100%), url("../img/Espacio_login2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -141,6 +142,7 @@
 .titulo{
     font-size: 60px;
     margin-bottom: 15px;
+    color: whitesmoke;
 }
 
 .copy{
@@ -151,7 +153,8 @@
 /* La parte de nuestro servicio y eso*/
 
 .subtitulo{
-    color: #5a4e3c;
+    font-family: 'Itim', cursive;
+    color: #1e3c72;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
